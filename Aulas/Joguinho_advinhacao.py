@@ -7,3 +7,4 @@ if numero == chute:
     print("Você Acertou: ")
 else:
     print("Você errou: ")
+print("Tente outra vez: ")
