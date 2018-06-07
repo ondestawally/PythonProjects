@@ -5,7 +5,7 @@ print("Bem vindo ao jogo de Adivinhação!")
 print("*********************************")
 
 numero = randint(0, 9)
-print(numero)
+
 
 tentativas = 3
 
