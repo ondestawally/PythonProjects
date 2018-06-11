@@ -6,10 +6,11 @@ print("*********************************")
 
 numero = randint(0, 9)
 
-
+rodadas = 1
 tentativas = 3
 
-while(tentativas > 0):
+for rodadas in range(1, tentativas + 1):
+    print("Tentativa {} de {} ".format(rodadas, tentativas))
     chute = int(input("Digite um numero de 0 a 9: "))
 
     numero_certo = numero == chute
@@ -23,6 +24,6 @@ while(tentativas > 0):
             print("Seu chute foi maior: ")
         elif(menor):
             print("Seu chute foi Menor: ")
-    tentativas = tentativas - 1
+
 
 print("Final do jogo: ")
